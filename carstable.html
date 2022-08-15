@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+            
+        <meta charset="utf-8"   />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+        </head>
+
+        <style>
+            table,tr,td,th {
+                border:1px solid black;
+                border-collapse: collapse;
+               
+            }
+            table{
+                width: 50%;
+                margin-left: auto;
+                margin-right: auto;
+                font-size: 20px;
+            
+            }
+            th,td{
+                padding: 10px;
+                
+            }
+
+            thead tr{   background:rgb(4, 38, 4);
+                color:white;
+            }
+            tbody tr{ text-align: center   ;}
+            tbody tr:nth-child(even){
+                background-color: rgb(220, 220, 220);
+                color: rgb(255, 255, 255);
+                
+            }
+            tbody tr:nth-child(odd){
+                font-size: larger;
+                background-color:cornsilk;
+            }
+            
+            tbody tr:hover{
+                background-color: rgb(66, 176, 206);
+            
+            }
+        </style>
+
+        <body>
+<table class="cars">
+    <thead>
+        <tr>
+            <th>Marka</th>
+            <th>Model</th>
+            <th>Yıl</th>
+            <th>Km</th>
+            
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <th>Audi</th>
+            <th>A3</th>
+            <th>2014</th>
+            <th>90000</th>
+        </tr>
+        <tr>
+            <th>Volvo</th>
+            <th>S60</th>
+            <th>2015</th>
+            <th>120000</th>
+        </tr>
+        <tr>    
+            <th>Wv</th>
+            <th>Golf</th>
+            <th>2016</th>
+            <th>200000</th>
+        </tr>
+</table>
+        </body>
+    </html>
