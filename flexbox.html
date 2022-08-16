@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+            
+        <meta charset="utf-8"   />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+       <title>flexbox </title>
+    <style>
+     
+        * {
+   
+         padding: 0;
+         margin: 0;
+         box-sizing: border-box;
+        }
+        .container {
+            width: 75%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            min-height: 600px;
+            background-color: rgb(237, 202, 168);}
+        .box{
+            font-family:'Times New Roman', Times, serif;
+            background-color: sandybrown;
+            margin: 10px;
+            border: 1px solid black;
+        }
+        .box:hover{
+            background-color: rgb(237, 193, 112);
+
+        }
+        .Flex1 {
+           
+            background: deepskyblue;
+        }
+        .Flex2{
+            
+           flex-grow: 1;
+            background: cornflowerblue;
+            align-self: flex-end;
+        }
+        .Flex3{
+           flex-grow: 3;
+            background: darkturquoise;
+        }
+       
+    </style>
+         </head>
+    <body>
+<div class="container">
+    <div class="box Flex1">
+        <h1>Flex1</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Error, quam!</p></div>
+        <div class="box Flex2">
+            <h1>Flex2</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam, possimus? Corrupti eveniet accusamus facere eius iste ea alias assumenda nobis vel quasi cum, corporis molestias laboriosam nam doloribus! Eaque, rem!</p>
+        </div>
+        <div class="box Flex3">
+            <h1>Flex3</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam labore cum ipsum dolore quos, unde distinctio aspernatur? Quidem rerum, quas deleniti nostrum sed dignissimos nam voluptas, pariatur est voluptate in.</p>
+            
+        
+
+</div>  
+
+ </body>
+ </html>
