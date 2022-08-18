@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+            
+        <meta charset="utf-8"   />
+        <meta name="viewport" content="width=device-width, initial-scale=1" /> 
+       <title>responsive </title>
+    <style>
+       /* body {
+            background:green;
+        }
+        @media (max-width:700px) {
+
+            body{
+
+                background: blue;}
+            }
+        @media (max-width:600px) {
+            body{
+                background: red;
+            }
+        }*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;}
+
+.box {
+    border: 1px solid black;
+    padding: 10px;
+    width: 50%;
+    background-color: coral;
+    display: flex;
+    font-size: 20px;
+    flex-wrap: wrap;
+    }
+@media (max-width:700px) {
+
+    .box {
+        background-color: aqua;
+    }}
+
+    .box:hover{
+        background-color: palegoldenrod;
+    }
+        </style>
+            </head>
+            <body>
+                <div class="container">
+                    <div class="box">
+                        
+                        <h1>Responsive</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga.</p>
+                    </div>
+                    <div class="box">
+                        <h1>Responsive</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga.</p>
+                    </div>   
+                     <div class="box">
+                        <h1>Responsive</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga.</p>
+                    </div>   
+                     <div class="box">
+                        <h1>Responsive</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga.</p>
+                    </div>    
+                    <div class="box">
+                        <h1>Responsive</h1>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet, fuga.</p>
+                    </div>
+                </div>
+            </body>
+</html>
