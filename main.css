@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+h1{
+    font-size: 30px;
+    letter-spacing: 3px;
+   
+}
+a{
+    color: wheat;
+    text-decoration: none;
+}
+
+
+html {
+    color: rgb(5, 5, 3);
+    font-family: Open Sans,sans-serif;
+
+    
+}
+#navbar {
+    color: aliceblue;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 90px;
+    letter-spacing: 1px;
+    text-decoration-line: none;
+}
+
+    #navbar ul {
+        list-style-type: none;
+        display: flex;
+        align-items: center;
+
+    }
+    #navbar ul li a {
+        padding: 1rem;
+    }
+    #navbar ul li a:hover {
+        background: rgb(79, 75, 153);
+        color: aliceblue;
+        border-radius: 1px;
+        border-spacing: 1px;
+        
+        
+    }
+   

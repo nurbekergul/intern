@@ -1,0 +1,23 @@
+.text-center{
+    text-align: center;
+}
+.heading-small{
+    font-size: 1.25rem;
+}
+.heading-medium{
+    font-size: 1.5rem;
+}
+.heading-large{
+    font-size: 1.75rem;
+}
+.bg-lightsblue{
+    background: rgb(10, 3, 32);
+}
+.bg-green{
+    background: rgb(45, 183, 45);
+}
+.container{
+    max-width: 1200px;
+    
+    margin: 0 auto;
+}
